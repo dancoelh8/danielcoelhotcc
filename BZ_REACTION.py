@@ -31,7 +31,7 @@ arr = np.random.random(size=(2, 3, ny, nx))
 
 # Set up the image
 fig, ax = plt.subplots()
-im = ax.imshow(arr[0,0], cmap=plt.cm.Oranges_r)
+im = ax.imshow(arr[0,0], cmap=plt.cm.binary)
 ax.axis('off')
 
 def animate(i, arr):
